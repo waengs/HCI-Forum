@@ -1,0 +1,112 @@
+.subcategories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .subcategory {
+    width: 25%; 
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+.wake-up-form {
+    margin: 20px 0;
+}
+
+.wake-up-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wake-up-form input[type="time"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.wake-up-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.wake-up-form button:hover {
+    background-color: #45a049;
+}
+
+.music-selection {
+    margin-top: 20px;
+}
+
+.music-selection label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.music-selection select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#audio {
+    max-width: 100%;
+    width: 80%; 
+    margin-top: 20px;
+}
+
+.routine-links {
+    margin-top: 20px;
+}
+
+.routine-links p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.routine-links label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.routine-links input[type="radio"] {
+    margin-right: 5px;
+}
+
+#confirm-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#confirm-button:hover {
+    background-color: #45a049;
+}
+
+  

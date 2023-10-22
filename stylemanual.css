@@ -1,0 +1,58 @@
+.subcategory {
+    width: calc(33.33% - 20px); 
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display:inline; 
+}
+
+.categories {
+    text-align: center; 
+    align-items: center;
+}
+  
+  h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .lights, .appliances, .camera {
+    margin-top: 20px;
+  }
+
+  
+  .lights p, .appliances p, .camera p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Home Controller</title>
+  <link href="stylemain.css" rel="stylesheet">
+</head>
+<body>
+  <center>
+    <h1>Welcome to the Smart Home Control Panel!</h1>
+    <a href="manual.html"><button id="proceed-button"><h2>Manual Automation</h2></button></a>
+    <h2>Automation</h2>
+    <p>Manage your smart home routines and settings.</p>
+  </center>
+
+  <!-- Subcategories container with flexbox -->
+  <div class="subcategories-container">
+    <div class="subcategory">
+      <h3>Wake Up Routine</h3>
+
+      <!-- Set Alarm Form -->
+      <div class="wake-up-form">
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="time" id="alarm-time" name="alarm-time">
+        <button class="button">Set Alarm</button>
+      </div>
+
+      <!-- Choose Music -->
+      <div class="music-selection">
+        <label for="music-choice">Choose Music:</label>
+        <select id="music-choice" name="music-choice">
+          <option value="classics">Classics</option>
+          <option value="weather">Weather</option>
+        </select>
+      </div>
+
+      <audio id="audio" controls>
+        <source id="audio-source" src="default-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- Links to Coffee Maker and Lights -->
+      <div class="routine-links">
+        <p>Select Actions:</p>
+        <label>
+          <input type="checkbox" name="action" value="make-coffee"> Make Coffee
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="turn-on-lights"> Turn on Lights
+        </label>
+      </div>
+      <button id "confirm-button" class="button">Confirm Changes</button>
+    </div>
+
+    <div class="subcategory">
+      <h3>Away Mode Settings</h3>
+
+      <!-- Set Alarm Form -->
+      <div class="wake-up-form">
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="time" id="alarm-time" name="alarm-time">
+        <button class="button">Set Alarm</button>
+      </div>
+
+      <!-- Actions for Away Mode -->
+      <div class="routine-links">
+        <p>Select Actions:</p>
+        <label>
+          <input type="checkbox" name="action" value="robot-cleaner"> Robot Cleaner
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="turn-off-lights"> Turn off Lights
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="turn-off-thermostat"> Turn off Thermostat
+        </label>
+      </div>
+      <button id="confirm-button" class="button">Confirm Changes</button>
+    </div>
+
+    <div class="subcategory">
+      <h3>Welcome Home Settings</h3>
+
+      <!-- Set Alarm Form -->
+      <div class="wake-up-form">
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="time" id="alarm-time" name="alarm-time">
+        <button class="button">Set Alarm</button>
+      </div>
+
+      <!-- Actions for Welcome Home Settings -->
+      <div class="routine-links">
+        <p>Select Actions:</p>
+        <label>
+          <input type="checkbox" name="action" value="warm-up-bath"> Warm up Bath
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="turn-on-lights"> Turn on Lights
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="turn-on-thermostat"> Turn on Thermostat
+        </label>
+        <label>
+          <input type="checkbox" name="action" value="feed-cat"> Feed Cat
+        </label>
+      </div>
+      <button id="confirm-button" class="button">Confirm Changes</button>
+    </div>
+
+    <div class="subcategory">
+      <h3>Nighttime Routine</h3>
+
+      <!-- Set Alarm Form -->
+      <div class="wake-up-form">
+        <label for="alarm-time">Set Alarm Time:</label>
+        <input type="time" id="alarm-time" name="alarm-time">
+        <button class="button">Set Alarm</button>
+      </div>
+
+      <!-- Actions for Nighttime Routine -->
+      <div class="routine-links">
+        <p>Select Actions:</p>
+        <label>
+          <input type="checkbox" name="action" value="turn-on-lights"> Turn on Lights
+        </label>
+      </div>
+      <button id="confirm-button" class="button">Confirm Changes</button>
+    </div>
+  </div>
+</body>
+</html>
+
+
